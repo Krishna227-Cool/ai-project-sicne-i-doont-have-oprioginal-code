@@ -1,0 +1,111 @@
+.btn-funky-moon {
+    background: #A770EF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(145deg, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(145deg, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    border: 3px solid #eee;
+}
+
+.btn-rounded {
+    border-radius: 35px;
+}
+hr {
+    border-top: 1px solid #9E9E9E;
+}
+.heading h3 {
+    display: inline;
+}
+.btn-light-moon {
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #000;
+    border: 3px solid #eee;
+}
+.heading button {
+    float: right;
+}
+#pleaseworkok {
+    background: #A770EF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(145deg, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(145deg, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    width: 100%;
+    border: 3px solid #eee;
+    font-size:large;
+}
+#loltitle {
+    float:left;
+}
+#big_image {
+    width: 60%;
+    border-radius: 50%;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.buttons {
+    margin: 10%;
+    text-align: center;
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+.btn-hover.color-4 {
+    background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+    border: 3px dotted #eee;
+}
+#start {
+    font-size: 22px;
+}
+h4 {
+    background-color: darkgray;
+    line-height: 2;
+    margin: 0px;
+    color: white;
+}
+.modal-dialog{
+    width: 90%;
+}
+.instruction_image {
+    display: inline-block;  
+    width: 45%;
+}
+video {
+    background: url('game_console.png');
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+}
